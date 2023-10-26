@@ -1,0 +1,1 @@
+A basic vanilla go app to perform crud ops through a http server.
