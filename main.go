@@ -40,7 +40,6 @@ func addCar(r *http.Request) []DatabaseService.Car {
 		log.Fatal(err)
 	}
 
-	var cars []DatabaseService.Car
 	cars, err := DatabaseService.write(car.Make, car.Model, car.Color, car.Power, car.Year)
 	if err != nil {
 		log.Fatal(err)
