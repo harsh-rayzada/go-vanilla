@@ -17,7 +17,8 @@ type Car struct {
 	id    int8
 }
 
-var db = nil //how to globally store the db object once the connection is made and share it in different functions
+var db = nil //error here - use of untyped nil in variable declaration
+//how to globally store the db object once the connection is made and share it in different functions
 
 func init() {
 	connStr := "postgres://postgres:pgadmpwd160923@localhost/go-postgres?sslmode=disable"

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"services/DatabaseService"
+	"services/DatabaseService" //error here - could not import services/DatabaseService (no required module provides package "services/DatabaseService")
 )
 
 type Response struct {
